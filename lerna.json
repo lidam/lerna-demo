@@ -1,6 +1,17 @@
 {
+  "version": "independent",
+  "npmClient": "npm",
+  "command": {
+    "ignoreChanges": [
+      "ignored-file",
+      "*.md"
+    ],
+    "bootstrap": {
+      "ignore": "component-*",
+      "npmClientArgs": ["--no-package-lock"]
+    }
+  },
   "packages": [
     "packages/*"
-  ],
-  "version": "0.1.0"
+  ]
 }

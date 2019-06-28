@@ -12,5 +12,6 @@
   "dependencies": {
     "axios": "0.18.0",
     "element-ui": "2.2.2"
-  }
+  },
+  "gitHead": "8011f352e14a1c59326491a05c87959a95eb9fc2"
 }
